@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #a2678a;
+  --box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  --secondary-color: #be9fb2;
+  --third-color: #ecd4e2;
+  --fourth-color: #f9f6f9;
+}
+body {
+  max-width: 800px;
+  text-align: center;
+}
+h1 {
+  font-size: 96px;
+}
+h3 {
+  color: grey;
+  font-weight: normal;
+  font-size: 24px;
+}
+p {
+  color: #61677a;
+  padding: 10px;
+
+  margin: 10px;
+}
+.contactMe {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px var(--third-color);
+}
+.about {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 20px;
+  border-radius: 5px;
+}
+.Home {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+.about-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.primary-link {
+  background-color: var(--primary-color);
+  box-shadow: 0.5rem 0.5rem var(--secondary-color),
+    -0.5rem -0.5rem var(--third-color);
+  color: white;
+  padding: 20px;
+}
+#Contact {
+  font-weight: bold;
+  font-size: 48px;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+img {
+  border-radius: 5px;
+  border: 25px solid var(--fourth-color);
+  flex: 0 0 auto;
+  width: 100%;
+
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+.bg-light {
+  background-color: var(--fourth-color) !important;
+}
