@@ -10,12 +10,12 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 96px;
+  font-size: 90px;
+  font-family: "Lora", serif;
 }
 h3 {
-  color: grey;
+  color: gray;
   font-weight: normal;
-  font-size: 24px;
 }
 p {
   color: #61677a;
@@ -28,13 +28,15 @@ p {
   color: white;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px var(--third-color);
+  box-shadow: 1px 1px 1px 1px var(--third-color);
+  font-family: "Lora", serif;
 }
 .about {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   padding: 20px;
   border-radius: 5px;
+  font-family: "Lora", serif;
 }
 .Home {
   border: 1px solid var(--primary-color);
@@ -50,14 +52,16 @@ p {
 }
 .primary-link {
   background-color: var(--primary-color);
-  box-shadow: 0.5rem 0.5rem var(--secondary-color),
-    -0.5rem -0.5rem var(--third-color);
+  box-shadow: 0.4rem 0.3rem var(--secondary-color),
+    -0.3rem -0.3rem var(--third-color);
   color: white;
   padding: 20px;
+  font-family: "lora", serif;
 }
 #Contact {
   font-weight: bold;
   font-size: 48px;
+  font-family: "lora", serif;
 }
 a {
   text-decoration: none;
@@ -75,4 +79,22 @@ img {
 }
 .bg-light {
   background-color: var(--fourth-color) !important;
+}
+.navbar-brand {
+  font-family: "lora", serif;
+}
+.hero {
+  background-color: var(--fourth-color);
+  text-align: center;
+}
+.hero h2 {
+  font-family: "Playfair Display" serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
 }
