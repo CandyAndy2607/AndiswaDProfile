@@ -25,15 +25,20 @@ h3 {
   color: gray;
   font-weight: normal;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   color: #61677a;
   padding: 10px;
-
   margin: 10px;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 24px;
+  text-align: center;
 }
 img {
   border-radius: 5px;
@@ -43,6 +48,11 @@ img {
   display: block;
   margin: auto;
   box-sizing: border-box;
+}
+footer {
+  margin: 60px 0;
+  justify-content: center;
+  text-align: center;
 }
 .contactMe {
   background-color: var(--primary-color);
@@ -135,4 +145,33 @@ img {
   padding: 0;
   border: 0;
 }
-
+.social-links a {
+  margin: 0 20px;
+  background-color: #efe9ef;
+  padding: 5px 11px 5px 15px;
+  border-radius: 50%;
+  font-size: 28px;
+  transition: all 150ms ease-in-out;
+}
+.social-links a:hover {
+  background-color: white;
+  color: #a2678a;
+}
+.btn {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: white;
+  font-family: var(--default-font-family);
+  transition: all 150ms ease-in-out;
+  margin: 25px;
+}
+.btn :hover {
+  color: #7c3b62;
+  background-color: white;
+}
+.contact-box {
+  padding: 30px 120px;
+  background-color: #f2ebef;
+  border-radius: 10px;
+  margin: 0 60px;
+}
